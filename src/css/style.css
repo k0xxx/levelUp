@@ -1,0 +1,31 @@
+header{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+#topNav{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2.5rem;   
+}
+#topNav .topMenu{
+    display: flex;
+    justify-content: space-around;
+}
+#topNav .topMenu .topMenu_link{
+    display: block;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+section#particles{
+    background: url(../images/background.png) center no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    position: relative;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
